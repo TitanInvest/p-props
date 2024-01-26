@@ -42,7 +42,7 @@
 		"bluebird"
 	],
 	"dependencies": {
-		"p-map": "^6.0.0"
+		"p-map": "git+https://github.com/TitanInvest/p-map.git#main"
 	},
 	"devDependencies": {
 		"ava": "^5.3.1",

@@ -1,3 +1,13 @@
+# Titan Fork
+
+The official version of this package is pure ESM, which our build system does not support. See https://github.com/sindresorhus/p-map/issues/44#issuecomment-892663638.
+
+Here we just fork it and to use commonjs.
+
+Ideally we'd convert to ESM, but that's not realistic for us right now, and there are some rough edges we're hoping get sanded off before we do so. 
+
+Note that we've set the dependency on p-props to main - this is just to simplify debugging if we need to make changes to this down the road. It's on us to maintain compatibility, if we upgrade one we need to look at the other.
+
 # p-props
 
 > Like [`Promise.all()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) but for `Map` and `Object`
