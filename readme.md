@@ -6,7 +6,6 @@ Here we just fork it and to use commonjs.
 
 Ideally we'd convert to ESM, but that's not realistic for us right now, and there are some rough edges we're hoping get sanded off before we do so. 
 
-Note that we've set the dependency on p-props to main - this is just to simplify debugging if we need to make changes to this down the road. It's on us to maintain compatibility, if we upgrade one we need to look at the other.
 
 # p-props
 
